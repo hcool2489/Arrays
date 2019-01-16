@@ -10,6 +10,8 @@ public class Faltoo {
         System.out.println(Arrays.toString(l1.list));
         l1.insert(42);
         System.out.println(Arrays.toString(l1.list));
+        l1.insert(52);
+        System.out.println(Arrays.toString(l1.list));
     }
     
     void insert(int value){
